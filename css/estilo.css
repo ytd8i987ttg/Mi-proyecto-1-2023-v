@@ -18,7 +18,7 @@ footer{
     border-color: black;
 }
 #cabecera_nombre_imagen{
-    flex: 70%;
+    flex: 30%;
 }
 #Imagen_Nombre_Redondo{
     flex:30%;
@@ -87,6 +87,35 @@ img{
 #cuerpodetalle{
     flex: 60%;
 }
+#botones{
+    display: flex;
+    padding: 30px;
+}
+#botonfavorito{
+    flex: 50%;
+}
+#botonubicacion{
+    flex: 50%;
+}
+#marcofavorito{
+    background-image: url(/img/Recurso\ 13.png);
+}
+#marcoubiacion{
+    background-image: url(/img/Recurso\ 2.png);
+}
+.dicenoboton{
+    width: 250px;
+    background-color: #cccccc;
+    border-radius: 20px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 40px;
+    background-position: left 5px center;
+}
+.dicenoboton:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
 h1{
     text-align: center;
     font-weight: bold;
@@ -95,4 +124,53 @@ h1{
 #datosdetalle{
     text-align: justify;
     padding-top: 40px;
+}
+#menufooter{
+    flex: 20%;
+}
+#contenidofooter{
+    flex: 40%;
+}
+ul li:last-child{
+    border-right: none;
+}
+#footer{
+    display: flex;
+    width: 100%;
+    background-color: gray;
+}
+#socialfooter{
+    flex: 40%;
+    text-align: center;
+}
+#menufooter{
+    flex: 20%;
+}
+#contenidofooter{
+    flex: 40%;
+}
+nav a{
+    display: block;
+    padding: 10%;
+    color: red;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 20px;
+}
+.socialfooter li{
+    border: none;
+}
+li img{
+    width: 5%;
+    padding: 10px;
+}
+li img:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+#marcodetalle{
+    display: flex;
+    padding: 50%;
 }
